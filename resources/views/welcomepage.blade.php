@@ -1,5 +1,4 @@
 @extends('layouts.layout')
-@include('partials.navbar')
 <h3>Input your post</h3>
 <div style="border:3px solid black;">
     <form action="/create_post" method="POST">

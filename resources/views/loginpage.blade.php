@@ -1,5 +1,6 @@
 @extends('layouts.layout')
 @include('partials.navbar')
+@section('content')
 <h4>Login Page</h4>
 <div style="border:3px solid black;">
     <h2>LogIn</h2>
@@ -12,3 +13,4 @@
         <button>Log In</button>
     </form>
 </div>
+@endsection

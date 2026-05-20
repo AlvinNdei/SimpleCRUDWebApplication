@@ -1,5 +1,6 @@
 @extends('layouts.layout')
 @include('partials.navbar')
+@section('content')
 <div style="border:3px solid black;">
     <h2>Register</h2>
     <form action="/register" method="POST">
@@ -13,3 +14,4 @@
         <button>Register</button>
     </form>
 </div>
+@endsection

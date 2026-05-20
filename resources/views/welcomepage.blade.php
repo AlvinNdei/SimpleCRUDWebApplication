@@ -1,4 +1,5 @@
 @extends('layouts.layout')
+@section('content')
 <h3>Input your post</h3>
 <div  style="border:3px solid black;">
     <form action="/create_post" method="POST">
@@ -29,3 +30,4 @@
     @csrf
     <button>Logout</button>
 </form>
+@endsection

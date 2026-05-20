@@ -14,4 +14,5 @@
 <footer>
     <p>Copyright 2026 Designed and Built by Alvin Ndei| All Rights Reserved.</p>
 </footer>
+<script src="{{asset('app.js')}}"></script>
 @endsection

@@ -13,13 +13,11 @@
     <div class="box1" style="padding:10px; margin:10px;">
         <h3>{{$post['title']}}</h3>
         {{$post['body']}}
-        <form action="/edit" method="POST">
-            @csrf
-            <button type="submit" class="btn1">Edit</button>
-        </form>
         
-        <form action="/delete" method="POST">
+        <p><a href="/edit_post{$post->id}">Edit</a></p>
+        <form action="/delete{{$post->id}}" method="POST">
             @csrf
+            @method('DELETE')
             <button type="submit" class="btn1">Delete</button>
         </form>
     </div>

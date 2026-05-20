@@ -21,4 +21,12 @@ class PostController extends Controller
         Post::create($incomingFields);
         return redirect('/welcomepage');
     }
+
+    public function destroy(Post $post){
+        $post->delete();
+        return redirect('/welcomepage')->with('success','Your post was deleted successfully!');
+    }
+    public function editscreen(Post $post){
+        return view('/edit_post',['post'=>$post]);
+    }
 }

@@ -1,0 +1,1 @@
+alert ("This site uses cookies click ok to continue");

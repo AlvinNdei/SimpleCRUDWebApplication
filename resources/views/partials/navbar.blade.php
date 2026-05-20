@@ -1,6 +1,5 @@
 <header>
-    <nav>
-        <h3>Notes App</h3>
+    <nav style="text-align: right;">
         <a href="/">Home</a>
         <a href="/loginpage">Login</a>
         <a href="/registerpage">Register</a>

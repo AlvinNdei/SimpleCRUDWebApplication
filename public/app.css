@@ -1,5 +1,8 @@
 body{
-    background-color:rgb(19, 12, 69);
+    background-color:rgb(42, 34, 105);
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
 }
 .box1{
     border-radius:20px;
@@ -7,4 +10,34 @@ body{
 }
 .btn1{
     text-align:justify;
+}
+label{
+    color:white;
+}
+a{
+    color:white;
+}
+footer{
+    text-align:center;
+    margin-top:auto;
+}
+.image{
+    border-radius:20px;
+    display:block;
+    margin:0 auto;
+}
+h2{
+    color:white;
+}
+h1{
+    color:white;
+}
+h3{
+    color:white;
+}
+h4{
+    color:white;
+}
+p{
+    color:white;
 }

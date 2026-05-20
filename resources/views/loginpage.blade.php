@@ -2,7 +2,7 @@
 @include('partials.navbar')
 @section('content')
 <h4>Login Page</h4>
-<div style="border:3px solid black;">
+<div style="border:3px solid white;">
     <h2>LogIn</h2>
     <form action="/login" method="POST">
         @csrf

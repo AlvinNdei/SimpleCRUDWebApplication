@@ -7,4 +7,11 @@
     <p style="text-align:center;">MyNotes App keeps you creative 24/7.</p>
     <p style="text-align: center;">We capture knowledge, inspirations, and help you be on schedule with you day to day side quests.</p>
 </div>
+<div>
+    <img class="image" src="{{ asset('build/assets/images/Untitled.jpg') }}" alt="image of a person taking notes.">
+    <p style="text-align: center;"><i>Esacape the manual Labor.</i></p>
+</div>
+<footer>
+    <p>Copyright 2026 Designed and Built by Alvin Ndei| All Rights Reserved.</p>
+</footer>
 @endsection

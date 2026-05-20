@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 @include('partials.navbar')
 @section('content')
-<div style="border:3px solid black;">
+<div style="border:3px solid white;">
     <h2>Register</h2>
     <form action="/register" method="POST">
         @csrf

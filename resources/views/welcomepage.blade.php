@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 @section('content')
 <h3>Input your post</h3>
-<div  style="border:3px solid black;">
+<div  style="border:3px solid white;">
     <form action="/create_post" method="POST">
         @csrf
         <input class="box1" type="text" name="title" placeholder="title"><br>

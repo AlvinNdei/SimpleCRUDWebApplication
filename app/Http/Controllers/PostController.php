@@ -27,6 +27,18 @@ class PostController extends Controller
         return redirect('/welcomepage')->with('success','Your post was deleted successfully!');
     }
     public function editscreen(Post $post){
-        return view('/edit_post',['post'=>$post]);
+        return view('edit_post',['post'=>$post]);
+    }
+    public function actualUpdate(Post $post, Request $request){
+      $incomingFields = $request->validate([
+        'title' => 'required',
+        'body'  => 'required'
+      ]);
+
+      $incomingFields['title'] = strip_tags($incomingFields['title']);
+      $incomingFields['body']  = strip_tags($incomingFields['body']);
+
+      $post->update($incomingFields);
+      return redirect('/welcomepage')->with('success', 'Post updated successfully!');
     }
 }

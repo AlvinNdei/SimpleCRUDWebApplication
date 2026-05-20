@@ -23,5 +23,6 @@ Route::post('/login',[UserController::class,'login']);
 
 //post related posts
 Route::post('/create_post',[PostController::class,'createpost'])->middleware('auth');
-Route::delete('/delete{post}',[PostController::class,'destroy']);
-Route::get('/edit_post{post}',[PostController::class,'editscreen']);
+Route::delete('/delete/{post}',[PostController::class,'destroy']);
+Route::get('/edit_post/{post}',[PostController::class,'editscreen'])->name('post.edit');
+Route::put('/edit_post/{post}', [PostController::class, 'actualUpdate'])->name('post.update');

@@ -23,3 +23,9 @@ Route::post('/login',[UserController::class,'login']);
 
 //post related posts
 Route::post('/create_post',[PostController::class,'createpost'])->middleware('auth');
+Route::post('/delete',function(){
+    return 'Post deleted';
+});
+Route::post('/edit',function(){
+    return 'record edited successfully';
+});

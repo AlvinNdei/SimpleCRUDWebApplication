@@ -1,0 +1,11 @@
+body{
+    background-color:rgb(255, 255, 255)
+}
+.box1{
+    border-radius:20px;
+    background-color:gray;
+}
+.btn1{
+    text-align:justify;
+    /* margin-left:90%; */
+}

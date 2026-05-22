@@ -1,1 +1,1 @@
-alert ("This site uses cookies click ok to continue");
+console.log('Less javascript is used in this project');

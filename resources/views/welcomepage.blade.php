@@ -1,5 +1,12 @@
 @extends('layouts.layout')
 @section('content')
+<header>
+    <form style="text-align:right;"action="/logout" method="POST">
+    @csrf
+    <button>Logout</button>
+    <h2 style="text-align: left;">Notes App</h2>
+</form>
+</header>
 <h3>Input your post</h3>
 <div  style="border:3px solid white;">
     <form action="/create_post" method="POST">
@@ -26,8 +33,5 @@
     @endforeach
 </div>
 </div>
-<form action="/logout" method="POST">
-    @csrf
-    <button>Logout</button>
-</form>
+
 @endsection

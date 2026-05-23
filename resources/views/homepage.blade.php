@@ -9,10 +9,11 @@
 </div>
 <div>
     <img class="image" src="{{ asset('build/assets/images/Untitled.jpg') }}" alt="image of a person taking notes.">
-    <p style="text-align: center;"><i>Esacape the manual Labor.</i></p>
+    <p style="text-align: center;"><i>Escape the manual Labor.</i></p>
+    <p style="text-align: center;"><i>Digitalize your Notes.</i></p>
 </div>
 <footer>
-    <p>Copyright 2026 Designed and Built by Alvin Ndei| All Rights Reserved.</p>
+    <p>© Copyright 2026 Designed and Built by Alvin Ndei| All Rights Reserved.</p>
 </footer>
 <script src="{{asset('app.js')}}"></script>
 @endsection

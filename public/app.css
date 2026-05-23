@@ -16,12 +16,6 @@ body{
 .btn1{
     text-align:justify;
 }
-label{
-    color:white;
-}
-a{
-    color:white;
-}
 footer{
     text-align:center;
     margin-top:auto;
@@ -31,18 +25,6 @@ footer{
     display:block;
     margin:0 auto;
 }
-h2{
-    color:white;
-}
-h1{
-    color:white;
-}
-h3{
-    color:white;
-}
-h4{
-    color:white;
-}
-p{
+h2,h1,h3,h4,p,a,label{
     color:white;
 }

@@ -4,8 +4,8 @@
 <div  style="border:3px solid white;">
     <form action="/create_post" method="POST">
         @csrf
-        <input class="box1" type="text" name="title" placeholder="title"><br>
-        <textarea class="box1" name="body" cols="50" rows="16" placeholder="Input your Note..."></textarea><br>
+        <input style="color:black;font-weight:bold;" id="box1" type="text" name="title" placeholder="title"><br>
+        <textarea style="color:black;font-weight:bold;"id="box1" name="body" cols="50" rows="16" placeholder="Input your Note..."></textarea><br>
         <button type="submit">Save Post</button>
     </form>
     

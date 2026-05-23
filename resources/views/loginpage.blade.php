@@ -10,7 +10,7 @@
         <input type="email" name="email" placeholder="Email"><br>
         <label>Password</label><br>
         <input type="password" name="password" placeholder="Password"><br>
-        <button>Log In</button>
+        <button class="lgn-btn">Log In</button>
     </form>
 </div>
 @endsection

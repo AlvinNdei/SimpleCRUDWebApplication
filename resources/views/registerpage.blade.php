@@ -5,12 +5,12 @@
     <h2>Register</h2>
     <form action="/register" method="POST">
         @csrf
-        <label>Name</label>
-        <input type="text" name="name" placeholder="Full Name">
-        <label>Email</label>
-        <input type="email" name="email" placeholder="Email">
-        <label>Password</label>
-        <input type="password" name="password" placeholder="Password">
+        <label>Name</label><br>
+        <input type="text" name="name" placeholder="Full Name"><br>
+        <label>Email</label><br>
+        <input type="email" name="email" placeholder="Email"><br>
+        <label>Password</label><br>
+        <input type="password" name="password" placeholder="Password"><br>
         <button>Register</button>
     </form>
 </div>

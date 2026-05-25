@@ -1,5 +1,6 @@
 body{
-    background-color:rgb(42, 34, 105);
+    background-color: #00c6ff;
+    /* background-color:linear-gradient(135deg, #00c6ff, #0072ff); */
     min-height:100vh;
     display:flex;
     flex-direction:column;
